@@ -1,4 +1,3 @@
-console.log('client side javascript is loaded')
 // fetch('https://puzzle.mead.io/puzzle').then((response) => {     //fetch doesnot work in nodejs it only works in client side scripting
 //     response.json().then((data) =>{     //response.json returns the parsed json data
 //         console.log(data);
