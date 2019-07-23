@@ -9,7 +9,7 @@ const searchedData= document.querySelector('input')
 const messageOne = document.querySelector('#message-1')
 const messageTwo = document.querySelector('#message-2')
 
-messageOne.textContent = 'From javascript'
+messageOne.textContent = 'check weather of any place'
 weatherForm.addEventListener('submit',(e) => {
     e.preventDefault()
     const place = searchedData.value
