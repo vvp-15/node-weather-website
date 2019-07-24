@@ -8,7 +8,7 @@ const forecast = (lat,long,callback) =>{
         }else if(body.code===400){
             callback('given location is invalid',undefined)
         }else{
-            callback(undefined,`${body.daily.data[0].summary} Current temp ${body.currently.temperature} and rain probability ${body.currently.precipProbability}`)
+            callback(undefined,`${body.daily.data[0].summary} Current temp ${body.currently.temperature} and rain probability ${body.currently.precipProbability} and dewPoint is ${body.daily.data[0].dewPoint}`)
         }
 
     })
